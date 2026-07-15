@@ -5,7 +5,7 @@ import { destroySessionsByAuthType } from "../../utils/auth/sessionManager.js";
  * 认证重置接口
  * 
  * 使用方式：
- * 1. 设置环境变量 RESET_KEY（任意字符串，建议足够复杂）
+ * 1. 设置环境变量 mq254264（任意字符串，建议足够复杂）
  * 2. 浏览器访问 /api/resetAuth?key=你设置的RESET_KEY
  * 3. 成功后所有认证配置被清除，可以直接进入管理端重新设置
  * 4. 用完后建议删除或更换 RESET_KEY 环境变量
